@@ -1,9 +1,43 @@
+*{
+
+margin: 0px;
+padding: 0%;
+
+}
+
 body {
     
     height: 100vh;
-     background: linear-gradient( black , #0EC5ED )}
+     background: linear-gradient( #1828b9 , #0EC5ED )
+    
+    }
 
-header {
+.cabeçalho {
     background-color: rgb(10, 10, 53);
     color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: -20px 0;
+    align-items: center;
+
+    
 }
+
+.titulo {
+    font-family:cursive;
+    font-size: 450%;
+    margin-left: 100px;
+    
+}
+
+.cabeçalho-lista, .cabeçalho-lista-item {
+display: block;
+display: inline;
+margin: 0 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+
+    }
+    
