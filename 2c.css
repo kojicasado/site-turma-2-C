@@ -19,12 +19,13 @@ body {
     justify-content:space-between;
     padding: 0 25px;
     align-items: center;
+    box-shadow: 6px 6px 10px #060066;
 
     
 }
 
 .titulo {
-    font-family:cursive;
+    font-family: 'Mynerve', cursive;
     font-size: 450%;
     margin-left: 100px;
     
@@ -35,13 +36,26 @@ display: block;
 display: inline;
 margin: 0 20px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
- }
-    
+a:link{
+
+color: #ffff;
+text-decoration: none;
+}
+
+a:visited{
+
+color: #ffff;
+text-decoration: none;
+
+}
+
  .fotodasala {
 
   
 width: 45% ;
+border-radius: 28px; 
 
 }
 
@@ -57,13 +71,22 @@ align-items: center;
 
 text-align: left;
 width:45%;
+background-color: #060027;
+padding: 10px;
+border-radius: 34px;
 
 }
 
 .sobreasala{
-
+font-family:'Mynerve', cursive;
 text-align: left;
 margin-left: 10px;
 margin-bottom: 20px;
+}
+
+.paragrafo {
+
+font-family: cursive;
+
 }
 
