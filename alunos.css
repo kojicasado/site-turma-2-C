@@ -1,0 +1,71 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    
+    }
+    
+    body {
+         height: 3670px;
+         background: linear-gradient(#060066, #0EC5ED);
+         
+        }
+
+    
+    .cabeçalho {
+        background-color: rgb(10, 10, 53);
+        color: white;
+        display: flex;
+        justify-content:center;
+        padding: 0 25px;
+        align-items: center;
+        box-shadow: 6px 6px 10px #060066;}
+    
+        .seta {
+
+         font-size: 100px;
+         margin-left: -540px;
+        margin-right: 350px;
+        font-weight: bold;
+        margin-bottom: -20px;
+        }
+        a:link{
+            color: #ffff;
+            text-decoration: none;
+            }
+            a:visited{
+            color: #ffff;
+            text-decoration: none;
+            }
+
+
+    .titulo {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 450%;
+        margin-left: 100px;
+        
+    }
+
+    .estudante-imagem{
+
+width: 200px;
+border-radius: 28px;
+margin-top: 100px;
+
+    }
+    .estudante-div{
+
+text-align: center;
+color: #ffff;
+
+    }
+
+    .estudante-todos{
+
+
+display: grid;
+grid-template-columns: 10% 20% 20% 20% 20%;
+
+
+    }
+
