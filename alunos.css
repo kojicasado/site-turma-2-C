@@ -6,7 +6,7 @@
     }
     
     body {
-         height: 3670px;
+         height: 3900px;
          background: linear-gradient(#060066, #0EC5ED);
          
         }
@@ -59,6 +59,7 @@ margin-top: 100px;
 
 text-align: center;
 color: #ffff;
+font-family: monospace;
 
     }
 
@@ -68,6 +69,18 @@ color: #ffff;
 display: grid;
 grid-template-columns: 10% 20% 20% 20% 20%;
 
+
+    }
+
+    h3{
+
+    margin-top: 20px;
+
+    }
+
+    h4 {
+
+    margin-top: 10px;
 
     }
 
