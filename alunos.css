@@ -77,6 +77,12 @@ grid-template-columns: 10% 20% 20% 20% 20%;
 
     }
 
+.rest {
+
+display: flex;
+justify-content: space-around;
+}    
+
     h3{
 
     margin-top: 20px;
